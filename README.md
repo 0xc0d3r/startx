@@ -1,3 +1,4 @@
 # startx
-my learnings goes here
-hey ReactJS is awesomecat README.md 
+*my learnings goes here*
+
+*hey ReactJS is awesome*
