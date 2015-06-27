@@ -8,9 +8,10 @@ var LikeButton = React.createClass({
     render: function(){
       var text = this.state.liked ? 'like' : 'haven\'t liked';
       return (
-        <p onClick={this.handleClick}>
-          You {text} this.
-        </p>
+        <div>
+          <input type="button" onClick={this.handleClick} value={this.state.liked ? 'Unlike' : 'Like'} />
+          &emsp;You {text} this.
+        </div>
       );
     }
 });
