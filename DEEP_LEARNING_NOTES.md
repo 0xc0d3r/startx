@@ -14,25 +14,25 @@
       - relu
           * 6 times faster than `tanh` and `sigmoid`
   * Learning rate
-      if increase:
-         - chance of missing local minimas
-         - oscillations might happen
-         - error rate also might increase
-      if decreases:
-         - will take too much time & need more computational power
+       - if increase:
+           * chance of missing local minimas
+           * oscillations might happen
+           * error rate also might increase
+       - if decreases:
+           * will take too much time & need more computational power
   * No. of iterations
-      if increases:
-         - will take more time
-         - accuracy will improve if leanring rate is less
-         - error rate may increase
+       - if increases:
+           * will take more time
+           * accuracy will improve if leanring rate is less
+           * error rate may increase
   * Loss functions
   * Various optimization algos
        - Adam algo is efficient
   * Batch size
-      if large value:
-         - need more computational power because we have to find slope for parameters
-      if small value:
-         - noise
+       - if large value:
+          * need more computational power because we have to find slope for parameters
+       - if small value:
+          * noise
   * Regularlization:
         - Dropout
         - Batch normalization
